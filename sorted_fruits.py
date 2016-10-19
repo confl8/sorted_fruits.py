@@ -2,10 +2,10 @@
 infile = open("unsorted_fruits.txt", "r")
 
 # writes fruits out in alphabetical order to a file named sorted_fruits.txt.
-outfile=open("sorted_fruits.txt","w")
+outfile = open("sorted_fruits.txt","w")
 
 #from infile, scan the lines so you can do things to them
-fruit=infile.readlines()
+fruit = infile.readlines()
 
 #from the infile, sort the lines alphabetically
 fruit.sort()
